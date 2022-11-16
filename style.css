@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 
 .navigation {
@@ -79,7 +80,7 @@ figure img {
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 20px;
   font-size: 20px;
   text-align: center;
@@ -206,7 +207,7 @@ select {
   width: 471px;
   font-family: Helvetica, sans-serif;
   font-size: 1em;
-  margin: 0px 0px 10px 0px;
+  margin: 0 0 10px 0;
   border: 2px solid #ccc;
 }
 
@@ -228,7 +229,7 @@ label {
   font-family: Helvetica, sans-serif;
 }
 .rate {
-    float: center;
+    float: inside;
     padding-right: 130px;
 }
 .rate:not(:checked) > input {
